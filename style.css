@@ -1,0 +1,78 @@
+.barra-inicial {
+    background: rgb(119, 0, 0);
+    background: linear-gradient(90deg,rgb(0, 0, 0) 0%, rgb(139, 38, 38) 50%, rgb(255, 0, 0) 100%);
+}
+
+body {
+    font-family: "Winky Rough", sans-serif; ;
+    
+}
+
+#Sobre {
+ padding-top: 100px;
+ background:linear-gradient(rgb(212, 65, 65) 0%, rgb(212, 116, 116) 50%, rgb(230, 167, 167) 100%);
+ color:white;
+}
+
+#Sobre2 {
+ padding-top: 100px;
+ background:linear-gradient(rgb(230, 167, 167) 0%, rgb(212, 116, 116) 50%, rgb(212, 65, 65) 100%);
+ color:white;
+}
+
+
+#Sobre3 {
+ padding-top: 100px;
+ background:linear-gradient(rgb(212, 65, 65) 0%, rgb(212, 116, 116) 50%, rgb(230, 167, 167) 100%);
+ color:white;
+}
+
+
+#Sobre4 {
+ padding-top: 100px;
+ background:linear-gradient(rgb(212, 65, 65) 0%, rgb(212, 116, 116) 50%, rgb(230, 167, 167) 100%);
+ color:white;
+}
+
+
+#Sobre5 {
+ padding-top: 100px;
+ background:linear-gradient(rgb(230, 167, 167) 0%, rgb(212, 116, 116) 50%, rgb(212, 65, 65) 100%);
+ color:white;
+}
+
+#Sobre img {
+  height: 300px;
+}
+
+#Sobre2 img {
+  height: 300px;
+}
+
+
+#Sobre3 img {
+  height: 300px;
+}
+
+
+#Sobre4 img {
+  height: 500px;
+  width: 500px;
+  padding-top: 20px;
+}
+
+
+#Sobre5 img {
+  height: 500px;
+  width: 500px;
+  padding-top: 30px;
+}
+
+.mudar-cor {
+  color:white;
+}
+
+.carousel-item img {
+ height: 550px;
+ 
+}
