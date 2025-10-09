@@ -1,0 +1,171 @@
+/* ===== RESET E BODY ===== */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Winky Rough", sans-serif;
+    background: linear-gradient(180deg, #6c7400 100%, #c2c522 50%, hsl(51, 83%, 72%) 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== CONTEÚDO CENTRAL ===== */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* ===== BARRA DE NAVEGAÇÃO ===== */
+.barra-inicial {
+    width: 100%;
+    background: linear-gradient(90deg, #000000 0%, #898b26 50%, #ffee00 100%);
+    padding: 0.8rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: hsl(51, 83%, 72%);
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    color: #f3e07a;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+/* ===== TÍTULOS ===== */
+.titulo {
+    color: #f3e07a;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-bottom: 3px solid #aa9f0b;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+/* ===== SEÇÃO CONTATO ===== */
+#contato {
+    padding: 60px 0;
+    width: 100%;
+}
+
+.metodo-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* ===== FORMULÁRIO ===== */
+form {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-family: "Winky Rough", sans-serif;
+    text-align: center;
+}
+
+input, textarea {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    resize: none;
+    transition: 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid #a7aa0b;
+    background: rgb(255, 255, 255);
+    color: #000;
+}
+
+form button {
+    background: linear-gradient(90deg, #fbff00, #898b26);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    background: linear-gradient(90deg, #8b8426, #e5ff00);
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+    width: 100%;
+    padding: 15px 0;
+    background: linear-gradient(180deg, #626902 15%, #ffe600 80%);
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: auto; /* Fica no final */
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media screen and (max-width: 1000px) {
+    .metodo-contato {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form input,
+    form textarea,
+    form button {
+        width: 90%;
+        margin: 0 auto 12px auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        max-width: 95%;
+    }
+
+    form {
+        padding: 20px;
+    }
+    
+    body {
+        
+    background: linear-gradient(180deg, #c2c522 50%, hsl(51, 83%, 72%) 100%);
+    }
+}
