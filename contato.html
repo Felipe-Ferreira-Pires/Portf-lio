@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Story+Script&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-
+    
 </head>
 <body>
     
@@ -52,12 +52,13 @@
                <div>
               <h3> Fale Conosco </h3>
 
-              <form>
-                <input type="text" placeholder="Digite seu nome" required>
-                <input type="email"placeholder="Digite seu email"required>
-                <input type="tel" placeholder="Digite seu telefone(opcional)">
-                <textarea placeholder="Digite sua mensagem"required></textarea>
-                <button type="submit">Enviar</button>
+               <form action="mailto:ohayama7@gmail.com" method="post" enctype="text/plain">
+              <input type="text" class="form-control mb-3" placeholder="Digite seu nome" required>
+                            <input type="email" class="form-control mb-3" placeholder="Digite seu email" required>
+                            <input type="tel" class="form-control mb-3" placeholder="Digite seu telefone (opcional)">
+                            <textarea class="form-control mb-3" rows="4" placeholder="Digite sua mensagem" required></textarea>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
               </form>
 
            

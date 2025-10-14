@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     font-family: "Winky Rough", sans-serif;
-    background: linear-gradient(180deg, #6c7400 100%, #c2c522 50%, hsl(51, 83%, 72%) 100%);
+    background: linear-gradient(180deg, #c2c522 50%, hsl(51, 83%, 72%) 100%);
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -152,6 +152,12 @@ footer {
     form button {
         width: 90%;
         margin: 0 auto 12px auto;
+    }
+
+    
+    body {
+        
+    background: linear-gradient(180deg, #c2c522 50%, hsl(51, 83%, 72%) 100%);
     }
 }
 

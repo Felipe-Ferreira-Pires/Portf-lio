@@ -12,6 +12,7 @@ body {
  padding-top: 100px;
  background:linear-gradient(rgb(212, 65, 65) 0%, rgb(212, 116, 116) 50%, rgb(230, 167, 167) 100%);
  color:white;
+ padding-bottom: 100px;
 }
 
 #Sobre2 {
@@ -38,6 +39,28 @@ body {
 #Sobre5 {
  padding-top: 100px;
  background:linear-gradient(rgb(230, 167, 167) 0%, rgb(212, 116, 116) 50%, rgb(212, 65, 65) 100%);
+ color:white;
+ padding-bottom: 100px;
+}
+
+
+#Sobre6 {
+ padding-top: 100px;
+ background:linear-gradient(rgb(212, 65, 65) 0%, rgb(212, 116, 116) 50%, rgb(230, 167, 167) 100%);
+ color:white;
+}
+
+
+#Sobre7 {
+ padding-top: 100px;
+ background:linear-gradient(rgb(230, 167, 167) 0%, rgb(212, 116, 116) 50%, rgb(212, 65, 65) 100%);
+ color:white;
+}
+
+
+#Sobre8 {
+ padding-top: 100px;
+ background:linear-gradient(rgb(212, 65, 65) 0%, rgb(212, 116, 116) 50%, rgb(230, 167, 167) 100%);
  color:white;
 }
 
@@ -76,3 +99,16 @@ body {
  height: 550px;
  
 }
+
+.carousel {
+  background:linear-gradient(rgb(230, 167, 167) 0%, rgb(212, 116, 116) 50%, rgb(212, 65, 65) 100%);
+}
+
+.carousel2 {
+  background:linear-gradient(rgb(230, 167, 167) 0%, rgb(212, 116, 116) 50%, rgb(212, 65, 65) 100%);
+}
+
+.carousel3 {
+  background:linear-gradient(rgb(230, 167, 167) 0%, rgb(212, 116, 116) 50%, rgb(212, 65, 65) 100%);
+}
+
