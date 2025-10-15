@@ -1,6 +1,6 @@
 /* ===== RESET E BODY ===== */
 html, body {
-    height: 100%;
+    height: auto;
     margin: 0;
     font-family: "Winky Rough", sans-serif;
     background: linear-gradient(180deg, #c2c522 50%, hsl(51, 83%, 72%) 100%);
@@ -137,7 +137,8 @@ footer {
     background: linear-gradient(180deg, #626902 15%, #ffe600 80%);
     font-size: 0.9rem;
     text-align: center;
-    margin-top: auto; /* Fica no final */
+    margin: 0 ;
+    box-shadow: none;
 }
 
 /* ===== RESPONSIVIDADE ===== */
